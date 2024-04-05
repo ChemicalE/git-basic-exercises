@@ -1,0 +1,474 @@
+    1  git config--global
+    2  git config--global user.name "Zandile Madlala"
+    3  git config--global user.name "Zandile Madlala"
+    4  git--help
+    5  git --help
+    6  git config --global user.name "Zandile Madlala"
+    7  git config --global user.email zandilepellegrinm@gmail.com
+    8  code
+    9  git --global core.editor "code --wait"
+   10   git config --global core.editor "code --wait"
+   11  git config --global -e
+   12  git config --global core.autocrlf true
+   13  mkdir Moon
+   14  cd Moon
+   15  git init
+   16  ls
+   17  ls -a
+   18  open .git
+   19  echo hello > filr1.txt
+   20  echo hello > file2.txt
+   21  git status
+   22  git add .
+   23  git status
+   24  echo world >> filer1.txt
+   25  git status
+   26  echo world  >> filr1.txt
+   27  git status
+   28  git add filr1.txt
+   29  git status
+   30  git add filer1.txt
+   31  git status
+   32  git commit
+   33  rm filr1.txt
+   34  git status
+   35  git ls-files
+   36  git add.filr1.txt
+   37  git add filr1.txt
+   38  git ls-files
+   39  git status
+   40  git commit -m "Remove unused code"
+   41  mv file1.txt main.js
+   42  mv file2.txt main.js
+   43  git status
+   44  git add file2.txt
+   45  git add main.js
+   46  git status
+   47  git mv main.js filer1.js
+   48  git status
+   49  git commit -m "Refractor stage"
+   50  mdir log
+   51  mkdir logs
+   52  echo hello > logs/dev.log
+   53  git status
+   54  git clone https://github.com/libgit2/libgit2 mylibgit
+   55  git status
+   56  git config --global init.default branch main
+   57  git help config
+   58  clear
+   59  cd C:\Users\Zandile Madlala\Desktop\UMUZI 
+   60  git init
+   61  git status
+   62  git add index.htm
+   63  clear
+   64  cd C:\Users\Zandile Madlala\Desktop\UMUZI
+   65  clear
+   66  cd Downloads
+   67  clear
+   68  cd C:\Users\Zandile Madlala\Desktop\UMUZI
+   69  cd UMUZI
+   70  clear
+   71  cd Desktop
+   72  clear
+   73  C:\Users\Zandile Madlala\UMUZI
+   74  cd C:\Users\Zandile Madlala\UMUZI
+   75  clear
+   76  git init
+   77  git status
+   78  git add index.htm
+   79  git status
+   80  git rm --cashed index.htm
+   81  clear
+   82  cd C:\Users\Zandile Madlala\Desktop\UMUZI
+   83  cd Downloads
+   84  cd C:\Users\Zandile Madlala\Desktop\UMUZI
+   85  cd Desktop/UMUZI
+   86  git status
+   87  add index.htm
+   88  clear
+   89  git init
+   90  git status
+   91  git add index.htm
+   92  git status
+   93  git rm --cached index.htm
+   94  git status
+   95  git status
+   96  git status
+   97  clear
+   98  git add --add
+   99  git add
+  100  git add --all
+  101  git status
+  102  git commit -m "Commiting all files"
+  103  git status
+  104  git status
+  105  git add index.htm
+  106  git status
+  107  git restire --staged index.htm
+  108  git restore --staged index.htm
+  109  fit status
+  110  git status
+  111  git commit -a -m "updated text"
+  112  git status
+  113  git status
+  114  git restore "secret recipe.htm"
+  115  git mv "KCC Logo.png" "Primary Logo.png"
+  116  git commit -m "Changed the file name of an image"
+  117  git log
+  118  git log -p
+  119  cd /Desktop/UMUZI
+  120  cd Desktop/UMUZI
+  121  git status
+  122  log
+  123  git log
+  124  git branch FixTemp
+  125  git branch
+  126  git switch FixTemp
+  127  git status
+  128  git switch master
+  129  git merge -m "Merge fixtemp back to master" FixTemp
+  130  git branch -d FixTemp
+  131  git branch
+  132  clear
+  133  git remote add origin https://github.com/ChemicalE/Zandile-repo?tab=readme-ov-file#zandile-repo
+  134  git branch -m main
+  135  git puch -u origin main
+  136  git push -u origin main
+  137  Desktop/UMUZI
+  138  git status
+  139  cd Desktop/UMUZI
+  140  git status
+  141  git status
+  142  git add README.txt
+  143  git status
+  144  git status
+  145  git add README.txt
+  146  git status
+  147  git diff
+  148  git status
+  149  git diff
+  150  git diff --staged
+  151  git diff --cached
+  152  git commit
+  153  git status
+  154  git diff
+  155  git -a
+  156  git add -a
+  157  git commit -a
+  158  git status
+  159  rm README.txt
+  160  git rm README,txt
+  161  clear
+  162  cd Desktop/GitPrac
+  163  git init
+  164  git status
+  165  git add index.htm
+  166  git status
+  167  git rm --cached index.htm
+  168  git status
+  169  git status
+  170  clear
+  171  git add --all
+  172  git status
+  173  git commit -m "first commit - commiting all files to the repository"
+  174  git status
+  175  git status
+  176  git diff
+  177  cd Desktpp/GitPrac
+  178  cd Desktop/GitPrac
+  179  git status
+  180  git restore --staged index.htm
+  181  git status
+  182  git commt -a -m "updated text to free range"
+  183  git commit -a -m "updated text to free range"
+  184  git rm "secret recipe.htm"
+  185  git status
+  186  git restore "secret recipe.htm"
+  187  git restore "secret recipe.htm"
+  188  git restore --staged "secret recipe.htm"
+  189  index.htm
+  190  git status
+  191  git restore "secret recipe.htm"
+  192  git mv "KCC log.png" "Primary Logo.png"
+  193  git mv "KCC Logo.png" "Primary LOgo.png"
+  194  git commt -m "Channnged the file name"
+  195  git commit -m "cchgeed the filr name"
+  196  git status
+  197  git log
+  198  git commit -m "Changed filr name to Primary Logo.png" --amend
+  199  git log
+  200  git log -p
+  201  git log --oneline
+  202  git --rebase
+  203  clear
+  204  git remote add origin https://github.com/ChemicalE/Zandile-repo?tab=readme-ov-file#zandile-repo
+  205  git branch -M master
+  206  git push -u origin master
+  207  clear
+  208  git remote add origin https://github.com/ChemicalE/Zandile-repo.git
+  209  git branch -M main
+  210  git push -u origin main
+  211  git push -u origin main
+  212  clear
+  213  git remote https://github.com/ChemicalE/Zandile-repo
+  214  git remote add origin https://github.com/ChemicalE/Zandile-repo
+  215  git branch -M main
+  216  git push -u origin main
+  217  cd Desktop/GitPrac
+  218  git remote add origin https://github.com/ChemicalE/Zandile-repo
+  219  git remote add https://github.com/ChemicalE/Zandile-repo
+  220  git ls
+  221  cd Desktop/GitPrac
+  222  ls
+  223  ls -a
+  224  ls -l
+  225  pwd
+  226  mkdir Learning_unix
+  227  cd
+  228  cd Desktop/git-basic-exercises
+  229  ls -a
+  230  git init
+  231  ls -a
+  232  git status
+  233  tough README.md
+  234  touch README.md
+  235  ls -a
+  236  git status
+  237  git log
+  238  git add README.md
+  239  git status
+  240  git status
+  241  git commit -m "initial commit"
+  242  git log
+  243  nano README.md
+  244  cat README.md
+  245  git status
+  246  git commit -m "Second commit"
+  247  git add
+  248  git add README.md
+  249  git status
+  250  git commit -m "Second commit"
+  251  nano README.md
+  252  cat README.md
+  253  git status
+  254  git add README.md
+  255  git status
+  256  git commit -m "Third commit"
+  257  git status
+  258  git log
+  259  git checkout 01d1222aa6d03b16f22f326cd6c00765190e98e4 
+  260  cat README.md
+  261  git checkout main
+  262  git checkout master
+  263  cd Desktop/git-basic-exercises
+  264  git log
+  265  git checkout 01d1222aa6d03b16f22f326cd6c00765190e98e4 
+  266  Q
+  267  git checkout master
+  268  git branch
+  269  git branch mikshake-flavours
+  270  git branch
+  271  git switch milkshake-flavours
+  272  git switch mikshake-flavours
+  273  git branch
+  274  git branch -d mikshake-flavours
+  275  git switch master
+  276  git branch -d mikshake-flavours 
+  277  git branch milkshake-flavours
+  278  git switch milkshake-flavours
+  279  nano milkshakes.md
+  280  git status
+  281  git add -m milkshakes.md "added initial flavours"
+  282  git add -a milkshake.md "added initial flavours"
+  283  git add milkshakes.md
+  284  git status
+  285  git commit -m "added initial flavours"
+  286  git status
+  287  ls
+  288  git log
+  289  git switch master
+  290  git branch history
+  291  git branch
+  292  git log
+  293  history > history.txt
+  294  git commit -m "added history"
+  295  git status
+  296  git add history.txt
+  297  git status
+  298  git commit -m "added history"
+  299  git log
+  300  brach switch milkshake-flavours 
+  301  branch switch milkshake-flavours 
+  302  git branch
+  303  git branch switch milkshake-flavours
+  304  git switch milkshake-flavours
+  305  git log
+  306  git status
+  307  git add README.md
+  308  git commit -m "random readme changes"
+  309  git switch history
+  310  cat README.md
+  311  rm README.md
+  312  git status
+  313  git restore README.md
+  314  rm README.md echo "booya" > README.md
+  315  rm README.md
+  316  echoo "booya" > README.md
+  317  git restore
+  318  gir restore README.md
+  319  git restore README.md
+  320  git status
+  321  echo "booya" > README.md
+  322  rm README.md
+  323  echo "booya" > README.md
+  324  git status
+  325  git add README.md
+  326  git commit -m "rewrote readme"
+  327  git switch master
+  328  ls
+  329  git checkout master
+  330  git log
+  331  git checkout milkshake-flavours
+  332  ls
+  333  git log
+  334  git checkout history
+  335  ls
+  336  git log
+  337  cd Desktop/git-basic-exercises
+  338  cd Desktop/git-basic-exercises
+  339  ls -a
+  340  git init
+  341  ls -a
+  342  ls
+  343  git status
+  344  touch README.md
+  345  ls -a
+  346  git status
+  347  git log
+  348  git add README.md
+  349  git log
+  350  git status
+  351  git rm --cached
+  352  git status
+  353  git rm --cached README.md
+  354  git status
+  355  git add README.md
+  356  git commit -m "initial commit"
+  357  git log
+  358  nano README.md
+  359  cat README.md
+  360  git status
+  361  git add README.mf
+  362  git commit -m "second commit"
+  363  git add README.md
+  364  git status
+  365  git commit -m "second commit"
+  366  nano README.md
+  367  git add README.md
+  368  git commit -m "third commit"
+  369  git log
+  370  git checkout 5540dda83bb60e01acfdc84ac086c7890e20a0f9 
+  371  cat README.md
+  372  git checkout master
+  373  cat README.md
+  374  git branch
+  375  git branch milkshake-flavours
+  376  git branch
+  377  git switch milkshake-flavours 
+  378  git branch
+  379  nano milkshakes.md 
+  380  git status
+  381  git add milkshakes.md
+  382  git commit -m "added initial flavours"
+  383  git log
+  384  git checkout master
+  385  git log
+  386  git branch history
+  387  git checkout history
+  388  git log
+  389  git branch
+  390  history > history.txt
+  391  git status
+  392  git add history.txt
+  393  git commit -m "added history"
+  394  git log
+  395  git checkout milkshakes
+  396  git checkout milkshake-flavours
+  397  git log
+  398  git status
+  399  git add README.md
+  400  git commit -m "random readme changes"
+  401  git checkout history
+  402  rm README.md
+  403  echo "booya" > README.md 
+  404  cat README.md
+  405  git status
+  406  git add README.md
+  407  git commit -m "rewrote readme"
+  408  git checkout master
+  409  ls
+  410  git log
+  411  git checkout milkshake-flavours
+  412  ls
+  413  git log
+  414  git checkout history
+  415  ls
+  416  git log
+  417  git checkout master
+  418  git merge milkshake-flavours
+  419  ls
+  420  git log
+  421  git merge history
+  422  cd Desktop/git-basic exercises
+  423  cd git-basic-exercises
+  424  cd Desktop/git-basic-exercises
+  425  ls
+  426  git init
+  427  git status
+  428  ls
+  429  ls -a
+  430  git status
+  431  touch README.md
+  432  git log
+  433  git add README.md
+  434  git status
+  435  git rm --cached README.md
+  436  git status
+  437  git add README.md
+  438  git commit -m "initial commit" 
+  439  git log
+  440  nano README.md
+  441  cat README.md
+  442  git status
+  443  git add README.md
+  444  git commit -m "second commit:
+  445  cd Desktop/git-basic-exercises
+  446  git status
+  447  git commit -m "second commit"
+  448  nano README.md
+  449  Git status
+  450  git add README.md
+  451  git commit -m "third commit" 
+  452  git log
+  453  git checkout cebef4a59a25d0462b5d0f7cfb4463b568637e4e
+  454  cat README.md
+  455  git checkout master
+  456  cat README.md
+  457  git branch milkshake-flavours 
+  458  git branch
+  459  git checkout milkshake-flavours
+  460  git status
+  461  git branch
+  462  git log
+  463  nano milkshakes.md
+  464  git log
+  465  git status
+  466  git add milkshake.md
+  467  git add milkshakes.md
+  468  git commit -m "added initial flavours" 
+  469  git log
+  470  git checkout master
+  471  git log
+  472  git branch history
+  473  git log
+  474  history > history.txt
